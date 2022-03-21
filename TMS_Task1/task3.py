@@ -1,3 +1,4 @@
+# Создать и вывести список, хранящий в себе все рассмотренные в данной лекции типы данных.
 user_None_type = None
 user_boolean = True
 user_string = "This is string"
