@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b595d60-0356-4a91-a4cf-ca881442238b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/TMS_Task1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TMS_Task1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/task2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/task3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +38,7 @@
       <updated>1647886410967</updated>
       <workItem from="1647886414341" duration="9000" />
       <workItem from="1647886599566" duration="198000" />
+      <workItem from="1647887156612" duration="67000" />
     </task>
     <servers />
   </component>
