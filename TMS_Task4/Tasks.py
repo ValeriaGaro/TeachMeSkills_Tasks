@@ -20,17 +20,14 @@ print(generate_list(20))
 # Создать функцию, которая будет вызываться из генератора и отдавать текущее время
 
 
-def return_time(number_iterations: int = 1):
-    list_times = []
-    for i in range(1, number_iterations + 1):
-        now = datetime.now()
-        current_time = now.strftime("%H:%M:%S")
-        list_times.append(current_time)
-        time.sleep(2)
-    return list_times
+import time
+from datetime import datetime
 
+def get_current_time():
+    time.sleep(1)
+    now = datetime.now()
+    return now.strftime("%H:%M:%S")
 
-current_times_list = [i for i in return_time(5)]
-print(current_times_list)
+[get_current_time() for i in range(5)]
 
 
