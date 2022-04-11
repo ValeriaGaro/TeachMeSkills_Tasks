@@ -11,8 +11,7 @@ def decorate_func(func):
 @decorate_func
 def odd_numbers(number: int) -> list:
     """Данная функция выводит список нечетных чисел в введенном пользователе диапазоне"""
-    users_numbers = [number for number in range(number) if number % 2 != 0]
-    return users_numbers
+    return [number for number in range(number) if number % 2 != 0]
 
 
 odd_numbers(10)
